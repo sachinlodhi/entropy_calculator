@@ -30,8 +30,6 @@ Supports 10+ languages in the current version. All the supported languages are a
 ```javascript
 const test  = require("entropy_calculator");
 
-const result = test(<PASSWORD_STRING>, LANGUAGE);
-Allowed language options ["chinese", "devanagari", "english", "french", "german", "greek","hebrew", "hinglish","latin", "russian", "spanish"]
 const result = test("martes h71 panda sigla cereo", "spanish"); 
 console.log(result); // returns 174
 
