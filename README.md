@@ -30,7 +30,18 @@ Supports 10+ languages in the current version. All the supported languages are a
 ```javascript
 const test  = require("entropy_calculator");
 
-//Allowed language options ["chinese", "devanagari", "english", "french", "german", //"greek","hebrew","hinglish","latin", "russian", "spanish"]
+//Allowed language options ["chinese", "devanagari", "english", "french", "german", "greek","hebrew","hinglish","latin", "russian", "spanish"]
+
+const result = test("martes h71 panda sigla cereo", "spanish"); 
+console.log(result); // returns 174
+
+result = test("neon 95th prissy ib read tern", "english");
+console.log(result); // returns 247
+
+result = test("тайна скарб литьЄ завет боком форма фильм", "russian");
+console.log(result); // returns 177
+
+```
 
 const result = test("martes h71 panda sigla cereo", "spanish"); 
 console.log(result); // returns 174
