@@ -42,6 +42,7 @@ result = test("тайна скарб литьЄ завет боком форма
 console.log(result); // returns 177
 
 ```
+#
 ## Note
 Selection of the correct language, while invoking the function, is necessary for the proper calculation of the entropy.
 For e.g. with string _archer carol cody blimp skit_ the correct language option is _english_. Any other language option would result in incorrect entropy.
